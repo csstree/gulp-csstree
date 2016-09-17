@@ -49,6 +49,7 @@ var cssTreePlugin = function (options) {
 
       if (report.length) {
         file.csstree = true;
+        console.log(validator.validateString(content))
         formatted = formatter(validator.validateString(content), file);
         logger(formatted);
       }
