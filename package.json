@@ -1,0 +1,35 @@
+{
+  "name": "gulp-csstree",
+  "version": "1.0.0",
+  "description": "CSS Tree lint plugin for gulp 3",
+  "keywords": [
+    "css",
+    "csstree",
+    "gulp",
+    "plugin",
+    "lint",
+    "validator"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smelukov/gulp-csstree.git"
+  },
+  "author": "Sergey Melyukov <s.melukov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smelukov/gulp-csstree/issues"
+  },
+  "homepage": "https://github.com/smelukov/gulp-csstree#readme",
+  "dependencies": {
+    "csstree-validator": "github:csstree/validator",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
